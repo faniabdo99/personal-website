@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(33,33,33);
+    background: linear-gradient(100deg, rgb(0, 0, 0) 0%, rgba(6,13,29,1) 50%, rgba(0,0,0,1) 100%);
+    background-attachment: fixed;
+    height: 100%;
+}
+.cta-button{
+    display: block;
+    border-radius: 50px;
+    background: rgb(33,33,33);
+    background: linear-gradient(330deg, rgba(33,33,33,1) 0%, rgba(23,38,55,1) 100%);
+    padding: 10px;
+    text-align: center;
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all ease 0.3s;
+    i{
+        margin-right: 10px;
+    }
+    &:hover{
+        transition: all ease 0.3s;
+        background: linear-gradient(120deg, rgba(33,33,33,1) 0%, rgba(23,38,55,1) 100%);
+        color: #fff;
+    }
+}

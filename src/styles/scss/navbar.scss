@@ -1,0 +1,20 @@
+.custom-navbar{
+    height: 130px;
+    margin-bottom: 180px;
+    .navbar-brand{
+        font-weight: bold;
+        color: #fff;
+    }
+    .nav-link{
+        color: #fff;
+        margin-left: 50px;
+        &:hover, &.active{
+            color:#fff !important;
+        }
+    }
+}
+@media screen and (max-width: 764px) {
+    .custom-navbar{
+        height: auto;
+    }
+}
