@@ -19,12 +19,12 @@ const SocialList = () => {
             colorClass: "github-color"
         },
         {
-            url: 'https://twitter.com/faniabdo99',
+            url: 'https://twitter.com/Abdofani',
             iconClass: faTwitter,
             colorClass: "twitter-color"
         },
         {
-            url: 'https://linkedin.com/faniabdo99',
+            url: 'https://linkedin.com/in/abdofani99/',
             iconClass: faLinkedinIn,
             colorClass: "linkedin-color"
         }

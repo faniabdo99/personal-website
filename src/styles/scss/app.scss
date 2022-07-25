@@ -26,3 +26,28 @@ body{
         color: #fff;
     }
 }
+.content-card-container{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 35px 50px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.main-header{
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.sub-header{
+    color:#fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.custom-badge{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #b1b1b1;
+    border-radius: 4px;
+    padding: 5px 20px;
+    margin: 10px;
+}

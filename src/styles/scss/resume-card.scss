@@ -1,0 +1,18 @@
+@import './vars';
+.resume-card{
+    border: 1px solid $grey;
+    padding: 10px 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    p.resume-card__date , p.resume-card__position{
+        color:$grey;
+        font-size: 0.9em;
+        margin-bottom: 0;
+        line-height: 2em;
+    }
+    h3.resume-card__title{
+        font-size: 1.2em;
+        font-weight: 400;
+        color: #fff;
+    }
+}

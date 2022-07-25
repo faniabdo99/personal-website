@@ -3,7 +3,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from "react-router-dom";
 // Styles
 import '../../styles/scss/navbar.scss';
 const NavBar = () => {
@@ -14,8 +14,8 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#home">About Me</Nav.Link>
-                        <Nav.Link href="#link">Resume</Nav.Link>
+                        <Link to="/"><Nav.Link href="/">About Me</Nav.Link></Link>
+                        <Link to="/resume"><Nav.Link href="/resume">Resume</Nav.Link></Link>
                         <Nav.Link href="#link">Portfolio</Nav.Link>
                         <Nav.Link href="#link">Blog</Nav.Link>
                         <Nav.Link href="#link">Contact</Nav.Link>

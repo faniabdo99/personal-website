@@ -4,6 +4,7 @@ import SocialList from './SocialList/Index';
 import '../styles/scss/sidebar.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCake, faEnvelope, faMapLocation, faPhone, faDownload } from '@fortawesome/free-solid-svg-icons';
+import Badge from './Partials/Badge';
 
 const Sidebar = () => {
     return (
@@ -11,7 +12,7 @@ const Sidebar = () => {
             <img className="sidebar__personal-photo" src={PersonalPhoto} alt="Abdulrahman Fani" />
             <h1 className="sidebar__personal-name">Abdulrahman Fani</h1>
             <div className="text-center mb-4">
-                <span className="sidebar__personal-title">Software Developer</span>
+                <Badge text="Software Developer" />
             </div>
             <SocialList />
             <div className="sidebar__contact-information mb-4">
