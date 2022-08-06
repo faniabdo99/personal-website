@@ -3,21 +3,22 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Container, Row, Col, ProgressBar } from "react-bootstrap";
 import HeaderTitle from "../Partials/HeaderTitle";
+import { motion } from "framer-motion";
 import '../../styles/scss/pages/resume.scss';
 import ResumeCard from "../Partials/ResumeCard";
 import Badge from "../Partials/Badge";
 const Resume = () => {
     const education = [
         {
-            date: "2013 - 2014",
-            title: "High School",
-            position: "Um Alqurra"
-        },
-        {
             date: "2014 - 2015",
             title: "High School",
             position: "Faisalyah School"
         },
+        {
+            date: "2013 - 2014",
+            title: "High School",
+            position: "Um Alqurra"
+        }
     ];
     const experience = [
         {
@@ -28,12 +29,7 @@ const Resume = () => {
         {
             date: "2020 - NOW",
             title: "TrèsJolie Jewelry",
-            position: "Digital Transformation Manager"
-        },
-        {
-            date: "2017 - NOW",
-            title: "Naqrah",
-            position: "Founder"
+            position: "Digital Transformation Advisor"
         },
         {
             date: "2019 - 2021",
@@ -45,10 +41,32 @@ const Resume = () => {
             title: "BizBuzz Digital",
             position: "Senior Backend Developer"
         },
+        {
+            date: "2017 - NOW",
+            title: "Naqrah",
+            position: "Founder"
+        }
     ];
-    const technologies = ['Laravel' , 'PHP', 'Figma', 'JavaScript', 'ReactJs', 'Ruby on Rails', 'Linux', 'AWS', 'GIT', 'Scrum', 'APIs'];
+    const technologies = ['Laravel' ,'PHP', 'Figma', 'JavaScript', 'ReactJs', 'Ruby on Rails', 'Linux', 'AWS', 'GIT', 'SCRUM', 'APIs'];
     return (
-        <div className="resume-page">
+        <motion.div className="resume-page" 
+                    initial={{
+                        y: "50%",
+                        opacity:0,
+                        scale:0.5,
+                    }} 
+                    animate={{
+                        y: 0,
+                        opacity:1,
+                        scale:1,
+                    }} 
+                    exit={{
+                        y: "50%",
+                        opacity:0,
+                        transition: { duration: 0.1 },
+                    }}
+                    transition={{ duration: 0.3 }}
+                    >
             <HeaderTitle text="Resume" />
             <Container>
                 <Row>
@@ -89,7 +107,7 @@ const Resume = () => {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </motion.div>
     )
 }
 export default Resume;

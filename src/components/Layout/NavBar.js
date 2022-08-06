@@ -1,24 +1,28 @@
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 // React Bootstrap
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // Styles
 import '../../styles/scss/navbar.scss';
 const NavBar = () => {
     return (
         <Navbar className="custom-navbar" expand="lg">
             <Container>
-                <Navbar.Brand href="#home">AbdulrahmanFani</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <NavLink className="navbar-brand" to="/">AbdulrahmanFani</NavLink>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" >
+                    <FontAwesomeIcon icon={faBars} />
+                </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Link to="/"><Nav.Link href="/">About Me</Nav.Link></Link>
-                        <Link to="/resume"><Nav.Link href="/resume">Resume</Nav.Link></Link>
-                        <Nav.Link href="#link">Portfolio</Nav.Link>
-                        <Nav.Link href="#link">Blog</Nav.Link>
-                        <Nav.Link href="#link">Contact</Nav.Link>
+                        <NavLink activeclassname="active" className="nav-link" to="/">About Me</NavLink>
+                        <NavLink activeclassname="active" className="nav-link" to="/resume">Resume</NavLink>
+                        <NavLink activeclassname="active" className="nav-link" to="/portfolio">Portfolio</NavLink>
+                        <NavLink activeclassname="active" className="nav-link" to="/blog">Blog</NavLink>
+                        <NavLink activeclassname="active" className="nav-link" to="/contact">Contact</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

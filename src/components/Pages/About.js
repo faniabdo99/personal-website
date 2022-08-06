@@ -6,6 +6,7 @@ import SkillCard from "../Partials/SkillCard";
 import { Col, Row } from "react-bootstrap";
 import { faGit, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import SubHeader from "../Partials/SubHeader";
+import { motion } from 'framer-motion';
 const About = () => {
     const skills = [
         {
@@ -46,7 +47,24 @@ const About = () => {
         }
     ];
     return (
-        <div className="about-us-page">
+        <motion.div className="about-us-page" 
+                    initial={{
+                        y: "50%",
+                        opacity:0,
+                        scale:0.5,
+                    }} 
+                    animate={{
+                        y: 0,
+                        opacity:1,
+                        scale:1,
+                    }} 
+                    exit={{
+                        y: "50%",
+                        opacity:0,
+                        transition: { duration: 0.1 },
+                    }}
+                    transition={{ duration: 0.3 }}
+                    >
             <HeaderTitle text="About Me" />
             <p className="about-us-page__decription">
                 I am a Full-Stack software developer around 10 Years of professional experience in the field.
@@ -66,7 +84,7 @@ const About = () => {
                 }
             </Row>
             {/*TODO: Add list of clients here as logo parade or slider*/}
-        </div>
+        </motion.div>
     );
 }
 export default About;

@@ -1,6 +1,7 @@
 @import './vars';
 .resume-card{
     border: 1px solid $grey;
+    height: 115px;
     padding: 10px 30px;
     margin-bottom: 25px;
     border-radius: 10px;
@@ -14,5 +15,10 @@
         font-size: 1.2em;
         font-weight: 400;
         color: #fff;
+    }
+}
+@media screen and (max-width:768px ) {
+    .resume-card{
+        height: auto;
     }
 }

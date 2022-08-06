@@ -5,6 +5,7 @@
     margin-bottom: 25px;
     border-radius: 10px;
     display: flex;
+    height: 250px;
     .skill-card__icon{
         flex:1;
         svg{
@@ -42,5 +43,10 @@
             margin-bottom: 0;
             line-height: 2em;
         }
+    }
+}
+@media screen and (max-width:768px ) {
+    .skill-card{
+        height: auto !important;
     }
 }
