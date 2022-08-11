@@ -5,7 +5,7 @@ import '../styles/scss/sidebar.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCake, faEnvelope, faMapLocation, faPhone, faDownload } from '@fortawesome/free-solid-svg-icons';
 import Badge from './Partials/Badge';
-
+import CvPointer from '../cv/Abdulrahman_Fani_CV.pdf';
 const Sidebar = () => {
     return (
         <div className="sidebar">
@@ -23,7 +23,7 @@ const Sidebar = () => {
                         </span>
                         <p>
                             <span>Phone</span>
-                            <p>+20 115 1411 867</p>
+                            <p><a href="https://wa.me/+201151411867" rel="noreferrer" target="_blank">+20 115 1411 867</a></p>
                         </p>
                     </li>
                     <li>
@@ -32,7 +32,7 @@ const Sidebar = () => {
                         </span>
                         <p>
                             <span>Email</span>
-                            <p>abdulrahman@naqrah.net</p>
+                            <p><a href="mailto:abdulrahman@naqrah.net" rel="noreferrer">abdulrahman@naqrah.net</a></p>
                         </p>
                     </li>
                     <li>
@@ -55,7 +55,7 @@ const Sidebar = () => {
                     </li>
                 </ul>
             </div>
-            <a className="cta-button" href="#">
+            <a className="cta-button" download="AdbulrahmanFaniCV" href={CvPointer}>
                 <FontAwesomeIcon icon={faDownload} /> Download CV
             </a>
         </div>

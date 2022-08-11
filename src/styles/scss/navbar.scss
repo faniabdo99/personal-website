@@ -29,14 +29,14 @@
             border-color: #fff;
         }
     }
+    .navbar-toggler{
+        color:#fff;
+    }
 }
 @media screen and (max-width:768px ) {
     .custom-navbar{
         height: auto;
         margin-bottom: 25px;
-    }
-    .navbar-toggler{
-        color:#fff;
     }
     .navbar-nav{
         text-align: center;

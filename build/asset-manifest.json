@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c1bbb18f.css",
+    "main.js": "/static/js/main.4f3e30f5.js",
+    "static/js/787.69707bec.chunk.js": "/static/js/787.69707bec.chunk.js",
+    "static/media/Abdulrahman_Fani_CV.pdf": "/static/media/Abdulrahman_Fani_CV.2b0b8c665f5950b2d5a5.pdf",
+    "static/media/shifa.jpg": "/static/media/shifa.473c1b7835fffa175768.jpg",
+    "static/media/ihb.png": "/static/media/ihb.81a725c18d6addee23fb.png",
+    "static/media/peppers.png": "/static/media/peppers.19fa178e2f1baa961d2b.png",
+    "static/media/bosterbio.png": "/static/media/bosterbio.07b69b7b11f7a133b181.png",
+    "static/media/naqrah.png": "/static/media/naqrah.045704f382cbcedd23e8.png",
+    "static/media/personal.jpg": "/static/media/personal.8a62fd757efb66dc96f1.jpg",
+    "static/media/ai4dev.png": "/static/media/ai4dev.d3f34992583a24a09184.png",
+    "index.html": "/index.html",
+    "main.c1bbb18f.css.map": "/static/css/main.c1bbb18f.css.map",
+    "main.4f3e30f5.js.map": "/static/js/main.4f3e30f5.js.map",
+    "787.69707bec.chunk.js.map": "/static/js/787.69707bec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1bbb18f.css",
+    "static/js/main.4f3e30f5.js"
+  ]
+}

@@ -67,9 +67,9 @@ const About = () => {
                     >
             <HeaderTitle text="About Me" />
             <p className="about-us-page__decription">
-                I am a Full-Stack software developer around 10 Years of professional experience in the field.
+                I am a Full-Stack software developer with around 10 Years of professional experience in the field.
                 <br />
-                I was born and raised in Aleppo, Syria, Pround to say that I've never graduated from a university, I am a self-taught developer.
+                I was born and raised in Aleppo, Syria, Proud to say that I've never graduated from a university, I am a self-taught developer.
             </p>
             <SubHeader text="My Skills" />
             <Row className="mb-5">
