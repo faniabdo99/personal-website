@@ -24,12 +24,12 @@ const Blog = () => {
     >
       <HeaderTitle text="Blog" />
       <p className="blog-page__description">
-        I'm not a copywritter by any means, But sometimes I write about things
-        that I find interesting.
+        I&apos;m not a copywritter by any means, But sometimes I write about
+        things that I find interesting.
         <br />
         <br />
         <br />
-        Seems like I haven't written anything yet.
+        Seems like I haven&apos;t written anything yet.
       </p>
     </motion.div>
   );

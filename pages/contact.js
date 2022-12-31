@@ -25,8 +25,8 @@ const Contact = () => {
     >
       <HeaderTitle text="Contact Us" />
       <p className="contact-us-page__description">
-        I'm always intersted in disucssing new things. Feel free to contact me
-        ay any time!
+        I&apos;m always intersted in disucssing new things. Feel free to contact
+        me ay any time!
       </p>
       <ContactForm />
     </motion.div>

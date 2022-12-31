@@ -51,7 +51,7 @@ export default function Home() {
       icon: faGoogle,
       title: "Technical SEO",
       description:
-        "I'm an expert in On-Page technical SEO, I've learnet how to apply the best structre and SEO techniques to improve websites ranking.",
+        "I&apos;m an expert in On-Page technical SEO, I've learnet how to apply the best structre and SEO techniques to improve websites ranking.",
       colorClass: "seo-color",
     },
   ];
@@ -80,14 +80,15 @@ export default function Home() {
         <p className="about-us-page__decription">
           I am a Full-Stack software developer with around 10 Years of
           professional experience in the field.
-          <br />I was born and raised in Aleppo, Syria, Proud to say that I've
-          never graduated from a university, I am a self-taught developer.
+          <br />I was born and raised in Aleppo, Syria, Proud to say that
+          I&apos;ve never graduated from a university, I am a self-taught
+          developer.
         </p>
         <SubHeader text="My Skills" />
         <Row className="mb-5">
-          {skills.map((item) => {
+          {skills.map((item, key) => {
             return (
-              <Col lg={6} md={6} sm={12} xs={12}>
+              <Col key={key} lg={6} md={6} sm={12} xs={12}>
                 <SkillCard skill={item} />
               </Col>
             );

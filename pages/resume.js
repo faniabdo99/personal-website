@@ -86,16 +86,16 @@ const Resume = () => {
             <h3 className="resume-page__section-title">
               <FontAwesomeIcon icon={faGraduationCap} /> Education
             </h3>
-            {education.map((item) => (
-              <ResumeCard resume={item} />
+            {education.map((item, key) => (
+              <ResumeCard key={key} resume={item} />
             ))}
           </Col>
           <Col lg={6} md={6} sm={12} xs={12}>
             <h3 className="resume-page__section-title">
               <FontAwesomeIcon icon={faFlask} /> Experience
             </h3>
-            {experience.map((item) => (
-              <ResumeCard resume={item} />
+            {experience.map((item, key) => (
+              <ResumeCard key={key} resume={item} />
             ))}
           </Col>
         </Row>
@@ -130,8 +130,8 @@ const Resume = () => {
           <Col lg={6} md={6} sm={12} xs={12}>
             <h3 className="resume-page__section-title">Technologies</h3>
             <div className="w-100">
-              {technologies.map((item) => (
-                <Badge text={item} />
+              {technologies.map((item, key) => (
+                <Badge key={key} text={item} />
               ))}
             </div>
           </Col>
