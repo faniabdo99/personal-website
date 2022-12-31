@@ -1,0 +1,27 @@
+.sidebar__social-list{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+    padding-inline-start: 0;
+    li{
+        background-color: rgba(255,255,255,0.1);
+        padding: 10px 15px;
+        border-radius: 4px;
+        svg{
+            width: 20px;
+        }
+    }
+    .facebook-color{
+        color: #4267B2;
+    }
+    .github-color{
+        color: #171515;
+    }
+    .twitter-color{
+        color: #1DA1F2;
+    }
+    .linkedin-color{
+        color: #0072b1;
+    }
+}

@@ -1,0 +1,52 @@
+@import "./vars";
+.skill-card{
+    border: 1px solid $grey;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    display: flex;
+    height: 250px;
+    .skill-card__icon{
+        flex:1;
+        svg{
+            height: 40px;
+            &.frontend-color{
+                color:#d218d8;
+            }
+            &.backend-color{
+                color:#3518d8;
+            }
+            &.do-if-color{
+                color:#d81818;
+            }
+            &.vc-color{
+                color:#4caf59;
+            }
+            &.server-management-color{
+                color:#cf7d30;
+            }
+            &.seo-color{
+                color:#07f7ff;
+            }
+        }
+    }
+    .skill-card__content{
+        flex:4;
+        h3.skill-card__title{
+            font-size: 1.2em;
+            font-weight: 400;
+            color: #fff;
+        }
+        p.skill-card__description{
+            color:$grey;
+            font-size: 0.9em;
+            margin-bottom: 0;
+            line-height: 2em;
+        }
+    }
+}
+@media screen and (max-width:768px ) {
+    .skill-card{
+        height: auto !important;
+    }
+}

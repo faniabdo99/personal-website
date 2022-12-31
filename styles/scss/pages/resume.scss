@@ -1,0 +1,26 @@
+@import '../vars';
+.resume-page{
+    .resume-page__section-title{
+        color:#fff;
+        font-size: 1.3em;
+        margin-bottom: 25px;
+        svg{
+            margin-right: 10px;
+            width: auto;
+            height: 30px;
+            color: $brand;
+        }
+    }
+    .resume__progress-bar{
+        margin-bottom:35px;
+        p{
+            color: $grey;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .progress{
+            height: 5px;
+            border-radius: 0;
+        }
+    }
+}

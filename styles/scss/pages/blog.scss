@@ -1,0 +1,9 @@
+@import "../vars";
+.blog-page{
+    .blog-page__description{
+        color:$grey;
+        font-size: 0.9em;
+        line-height: 2em;
+        margin-bottom: 40px;
+    }
+}
