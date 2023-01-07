@@ -14,7 +14,7 @@ import "../styles/scss/pages/contact.scss";
 import "../styles/scss/pages/portfolio.scss";
 import "../styles/scss/pages/resume.scss";
 import "../styles/home.scss";
-
+import "../styles/scss/admin/all.scss";
 import Head from "next/head";
 import NavBar from "../components/Layout/NavBar";
 import { Container, Row, Col } from "react-bootstrap";

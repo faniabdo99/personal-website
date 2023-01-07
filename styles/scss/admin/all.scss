@@ -1,0 +1,27 @@
+.admin-page{
+    .admin-card-link{
+        text-decoration: none;
+        .admin-card{
+            background-color: rgba(0,0,0,0.4);
+            padding: 30px 15px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            text-align: center;
+            transition: all ease .3s;
+            h4{
+                color: #fff;
+            }
+            p{
+                color: #c7c7c7;
+                font-weight: 100;
+                font-size: .9em;
+                margin-bottom: 0;
+            }
+            &:hover{
+                cursor: pointer;
+                background-color: rgba(0,0,0,0.6);
+                transition: all ease .3s;
+            }
+        }
+    }
+}

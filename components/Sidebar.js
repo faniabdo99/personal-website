@@ -31,7 +31,7 @@ const Sidebar = () => {
             </span>
             <p>
               <span>Phone</span>
-              <span class="sidebar__contact-information__value">
+              <span className="sidebar__contact-information__value">
                 <a
                   href="https://wa.me/+201151411867"
                   rel="noreferrer"
@@ -48,7 +48,7 @@ const Sidebar = () => {
             </span>
             <p>
               <span>Email</span>
-              <span class="sidebar__contact-information__value">
+              <span className="sidebar__contact-information__value">
                 <a href="mailto:abdulrahman@naqrah.net" rel="noreferrer">
                   abdulrahman@naqrah.net
                 </a>
@@ -61,7 +61,7 @@ const Sidebar = () => {
             </span>
             <p>
               <span>Location</span>
-              <span class="sidebar__contact-information__value">
+              <span className="sidebar__contact-information__value">
                 Egypt, Cairo
               </span>
             </p>
@@ -72,7 +72,7 @@ const Sidebar = () => {
             </span>
             <p>
               <span>Birthday</span>
-              <span class="sidebar__contact-information__value">
+              <span className="sidebar__contact-information__value">
                 June 19, 1999
               </span>
             </p>
