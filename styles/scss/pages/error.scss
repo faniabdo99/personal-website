@@ -1,0 +1,17 @@
+@import "../vars";
+.error-page{
+    .error-page__description{
+        color:$grey;
+        font-size: 0.9em;
+        line-height: 2em;
+        margin-bottom: 40px;
+    }
+    a{
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 4px;
+        color: #000;
+        display: inline-block;
+        font-size: 0.9em;
+    }
+}

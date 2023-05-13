@@ -1,3 +1,4 @@
+@import '../vars';
 .admin-page{
     .admin-card-link{
         text-decoration: none;
@@ -23,5 +24,16 @@
                 transition: all ease .3s;
             }
         }
+    }
+    .admin-page__description{
+        color:$grey;
+        font-size: 0.9em;
+        line-height: 2em;
+        margin-bottom: 40px;
+    }
+    // Contact Requests
+    .data-table{
+        background-color: rgba(0, 0, 0, 0.1);
+        color: #fff;
     }
 }

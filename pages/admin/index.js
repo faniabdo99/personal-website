@@ -36,7 +36,7 @@ const Admin = () => {
           </Link>
         </Col>
         <Col lg={6} md={6} sm={12} xs={12}>
-          <Link className="admin-card-link" href="/">
+          <Link className="admin-card-link" href="/admin/contact">
             <AdminCard
               title="Contact requests"
               description="Manage all conatct requests"

@@ -10,6 +10,7 @@ import "../styles/scss/social-list.scss";
 // Pages CSS
 import "../styles/scss/pages/about.scss";
 import "../styles/scss/pages/blog.scss";
+import "../styles/scss/pages/error.scss";
 import "../styles/scss/pages/contact.scss";
 import "../styles/scss/pages/portfolio.scss";
 import "../styles/scss/pages/resume.scss";
